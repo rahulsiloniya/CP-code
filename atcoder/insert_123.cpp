@@ -11,22 +11,27 @@ int main() {
 
   int answer = 0;
   int i = n - 1;
+  int prev = n;
   while (i >= 0) {
     if (arr[i] == 1) {
       int k = i;
       int num = 1;
-      while (k < n) {
+      while (k < prev) {      // make an optimization to only go till previous
+                              // one and add the result
+        
+        cout << arr[k] << " ";
         if (arr[k] == 0) {
           answer++;
         }
         else if (arr[k] == num) {
           answer++;
           num++;
-          arr[k] == 0;
+          arr[k] = 0;
         }
         else break;
         k++;
       }
+      cout << endl;
     }
     i--;
   }
