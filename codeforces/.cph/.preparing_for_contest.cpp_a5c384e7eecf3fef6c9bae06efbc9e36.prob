@@ -1,0 +1,1 @@
+{"name":"Local: preparing_for_contest","url":"d:\\Basic\\CP-code\\codeforces\\preparing_for_contest.cpp","tests":[{"id":1703325050634,"input":"3\n6 2\n5 4\n5 0","output":"3 5 4 1 6 2\n1 2 3 4 5\n5 4 3 2 1"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\Basic\\CP-code\\codeforces\\preparing_for_contest.cpp","group":"local","local":true}
