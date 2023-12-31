@@ -1,0 +1,1 @@
+{"name":"Local: nq_latin_square","url":"d:\\Basic\\CP-code\\codeforces\\nq_latin_square.cpp","tests":[{"id":1703774878797,"input":"3\nABC\nC?B\nBCA\nBCA\nCA?\nABC\n?AB\nBCA\nABC","output":"A\nB\nC"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\Basic\\CP-code\\codeforces\\nq_latin_square.cpp","group":"local","local":true}
